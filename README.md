@@ -28,3 +28,33 @@ https://localhost:XXXX/api/autor/updateautor/5e21f81a-7f55-4036-5ada-08da593af2a
 
 //ELIMINA AUTOR
 https://localhost:XXXX/api/autor/deleteautor/5e21f81a-7f55-4036-5ada-08da593af2ae
+
+
+//GUARDA LIBRO
+https://localhost:XXXX/api/libro/savelibro
+/*Modelo*/
+{
+        "autorId": "5e21f81a-7f55-4036-5ada-08da593af2ae",
+        "nombre": "Libro de prueba",
+        "editorial": "Poli",
+        "descripcion": "Libro de prueba",
+        "Anio":2022
+}
+
+
+//CARGA LISTA LIBROS
+https://localhost:XXXX/api/libro/getlibro/
+
+//ACTUALIZA LIBRO
+https://localhost:XXXX/api/libro/updatelibro/31f63631-1134-467b-c3fe-08da593c3afd
+{
+        "autorId": "5e21f81a-7f55-4036-5ada-08da593af2ae",
+        "nombre": "Libro de prueba 2",
+        "editorial": "Poli",
+        "descripcion": "Libro de prueba 2",
+        "Anio":2022
+}
+
+//ELIMINA LIBRO
+https://localhost:XXXX/api/libro/deletelibro/31f63631-1134-467b-c3fe-08da593c3afd
+
